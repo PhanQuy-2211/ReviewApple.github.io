@@ -3,56 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blog chuyên review điện thoại">
-    <title>Blog Review Điện Thoại</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Review Sản Phẩm Apple</title>
+    <link rel="stylesheet" href="template.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>Blog Review Điện Thoại</h1>
+        <div class="container">
+            <h1>Apple Tech Review</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="about">Về Chúng Tôi</a></li>
+                    <li><a href="#iphone">iPhone</a></li>
+                    <li><a href="#ipad">iPad</a></li>
+                    <li><a href="#macbook">MacBook</a></li>
+                    <li><a href="#watch">Apple Watch</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Trang chủ</a></li>
-                <li><a href="#">Bài viết mới</a></li>
-                <li><a href="#">Liên hệ</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <main>
-        <section class="intro">
-            <h2>Chào mừng đến với Blog Review Điện Thoại</h2>
-            <p>Chúng tôi chuyên cung cấp những đánh giá chi tiết về các dòng điện thoại mới nhất trên thị trường.</p>
-        </section>
+    
+    <section id="home" class="intro">
+        <div class="container">
+            <h2>Chào Mừng Đến Với Trang Review Sản Phẩm Apple</h2>
+            <p>Chúng tôi cung cấp các đánh giá chi tiết về các sản phẩm Apple mới nhất.</p>
+        </div>
+    </section>
 
-        <section class="reviews">
-            <article class="review-item">
-                <h3>Đánh giá iPhone 14 Pro Max</h3>
-                <img src="https://th.bing.com/th/id/R.ba55f1f95efd8089da5deb6502819f93?rik=fOaU7u88oLTRBA&pid=ImgRaw&r=0" alt="iPhone 14 Pro Max">
-                <p>iPhone 14 Pro Max là một trong những điện thoại tốt nhất của Apple, với thiết kế sang trọng và hiệu năng vượt trội.</p>
-                <a href="#">Đọc thêm</a>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>Về Chúng Tôi</h2>
+            <p>Phan Văn Quý - 106210228</p>
+            <p>Nguyễn Ngọc Huy - 106210217</p>
+        </div>
+    </section>
+    <section id="iphone" class="review-section">
+        <div class="container">
+            <h2>iPhone</h2>
+            <article class="review">
+                <div class="review-image">
+                    <img src="https://cdn.dxomark.com/wp-content/uploads/medias/post-125428/Apple-iPhone-14-Pro-Max_FINAL_featured-image-packshot-review-1.jpg" alt="iPhone 14 Pro Max">
+                </div>
+                <div class="review-content">
+                    <h3>iPhone 14 Pro Max</h3>
+                    <p class="summary">Một chiếc điện thoại mạnh mẽ với camera chất lượng cao và màn hình OLED 120Hz.</p>
+                    <div class="details">
+                        <p>iPhone 14 Pro Max trang bị chip A16 Bionic mạnh mẽ, camera 48MP, hỗ trợ quay video 8K, và màn hình ProMotion với tần số làm mới 120Hz. Pin dung lượng cao đảm bảo thời gian sử dụng kéo dài cả ngày. Face ID được cải tiến giúp bảo mật tốt hơn.</p>
+                    </div>
+                    <button class="read-more">Đọc thêm</button>
+                </div>
             </article>
+        </div>
+    </section>
 
-            <article class="review-item">
-                <h3>Đánh giá Samsung Galaxy S23 Ultra</h3>
-                <img src="https://example.com/s23ultra.jpg" alt="Samsung Galaxy S23 Ultra">
-                <p>Samsung Galaxy S23 Ultra nổi bật với màn hình lớn, pin tốt và camera ấn tượng.</p>
-                <a href="#">Đọc thêm</a>
+    <section id="ipad" class="review-section">
+        <div class="container">
+            <h2>iPad</h2>
+            <article class="review">
+                <div class="review-image">
+                    <img src="https://th.bing.com/th/id/OIP.d0nYFunsrtoas63ZJQWf2QAAAA?rs=1&pid=ImgDetMain" alt="iPad Pro 2022">
+                </div>
+                <div class="review-content">
+                    <h3>iPad Pro 2022</h3>
+                    <p class="summary">Hiệu suất vượt trội với màn hình Liquid Retina và hỗ trợ bút Apple Pencil.</p>
+                    <div class="details">
+                        <p>iPad Pro 2022 trang bị chip M2 mạnh mẽ, màn hình Liquid Retina 12.9 inch, hỗ trợ tốc độ làm mới 120Hz và công nghệ True Tone. Sản phẩm còn hỗ trợ bút Apple Pencil giúp tăng cường hiệu suất công việc và sáng tạo nội dung.</p>
+                    </div>
+                    <button class="read-more">Đọc thêm</button>
+                </div>
             </article>
+        </div>
+    </section>
 
-            <article class="review-item">
-                <h3>Đánh giá Google Pixel 8</h3>
-                <img src="https://example.com/pixel8.jpg" alt="Google Pixel 8">
-                <p>Google Pixel 8 mang đến trải nghiệm Android thuần túy với camera xuất sắc và hiệu năng mượt mà.</p>
-                <a href="#">Đọc thêm</a>
+    <section id="macbook" class="review-section">
+        <div class="container">
+            <h2>MacBook</h2>
+            <article class="review">
+                <div class="review-image">
+                    <img src="https://th.bing.com/th/id/R.a768194df69f68d005da340e4b6768fd?rik=oadb5IRgL71XlA&pid=ImgRaw&r=0" alt="MacBook Air M2">
+                </div>
+                <div class="review-content">
+                    <h3>MacBook Air M2</h3>
+                    <p class="summary">Hiệu suất đột phá với chip Apple M2 và thời lượng pin ấn tượng.</p>
+                    <div class="details">
+                        <p>MacBook Air M2 với thiết kế mỏng nhẹ, tích hợp chip Apple M2 mang đến hiệu suất mạnh mẽ, kết hợp màn hình Retina 13.3 inch sắc nét, hỗ trợ Thunderbolt 3 và thời lượng pin lên đến 18 giờ.</p>
+                    </div>
+                    <button class="read-more">Đọc thêm</button>
+                </div>
             </article>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section id="watch" class="review-section">
+        <div class="container">
+            <h2>Apple Watch</h2>
+            <article class="review">
+                <div class="review-image">
+                    <img src="https://th.bing.com/th/id/R.0f3ef1f276f3c2d1ef91a6675c87903a?rik=zYkSeYgMxap44g&pid=ImgRaw&r=0" alt="Apple Watch Series 8">
+                </div>
+                <div class="review-content">
+                    <h3>Apple Watch Series 8</h3>
+                    <p class="summary">Sản phẩm đồng hồ thông minh cao cấp với nhiều tính năng sức khỏe.</p>
+                    <div class="details">
+                        <p>Apple Watch Series 8 hỗ trợ đo nhịp tim, theo dõi giấc ngủ, và tính năng phát hiện ngã. Nó có khả năng chống nước và kết nối LTE, giúp người dùng theo dõi sức khỏe một cách toàn diện và tiện lợi.</p>
+                    </div>
+                    <button class="read-more">Đọc thêm</button>
+                </div>
+            </article>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Blog Review Điện Thoại. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Apple Tech Review. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
